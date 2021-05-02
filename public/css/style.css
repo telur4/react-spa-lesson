@@ -1,0 +1,27 @@
+.back-to-top {
+    background-color: rgb(240, 240, 240);
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+}
+.back-to-top .label {
+    display: block;
+    height: 18px;
+    margin:auto;
+    overflow: hidden;
+    width: 26px;
+}
+.back-to-top .label:before {
+    content: url(../img/sprites.png);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-left: -40px;
+}
+
+.no-js .back-to-top {
+    display: none;
+}
